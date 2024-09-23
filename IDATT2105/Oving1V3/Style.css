@@ -1,0 +1,122 @@
+body{
+    background-color: darkslategray;
+    background-image: url("BackRose.png");
+    margin: 0;
+}
+
+.MainHeading{
+    text-align: center;
+    align-items: center;
+    font-size: 300%;
+    background-image: url("Header.png");
+    color: gold;
+    padding-top: 10px;
+    border: 3px solid #000;
+}
+
+.MainBox{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    border: 3px solid #000;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.HeaderImage{
+    width: 100%;
+}
+
+.StartingHeading{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.Line{
+    margin: auto;
+    height: 5px;
+    width: 70%;
+    background-color: black;
+}
+
+.LikeTent{
+
+}
+
+.Tent{
+    padding: 40px;
+}
+
+.House{
+    padding: 40px;
+}
+
+.Farm{
+    padding: 40px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.themeBtn{
+    background-color: black;
+    border-color: black;
+}
+
+.themeBtn:hover{
+    transform: scale(1.03);
+}
+
+.Footer{
+    background-color: dimgray;
+    border: 3px solid #000;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.likeButton{
+    background-image: url("Like.png");
+    width: 44px;
+    height: 44px;
+    background-color: beige;
+    border-color: burlywood;
+}
+
+#LikeTent{
+    padding: 10px;
+}
+
+#LikeHouse{
+    padding: 10px;
+}
+
+#LikeFarm{
+    padding: 10px;
+}
+
+.Links{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#linksBtn{
+    background-color: beige;
+    border-color: burlywood;
+    padding: 5px;
+}
+
+#generateBtn{
+    background-color: beige;
+    border-color: burlywood;
+    padding: 40px;
+    font-size: 20px;
+}
