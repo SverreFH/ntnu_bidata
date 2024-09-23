@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cppOving3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Oppgave1og2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Oppgave1og2-Debug-dafea93fead2fcfd28b2.json",
+					"name" : "Oppgave1og2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Oppgave3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Oppgave3-Debug-8c528723a715e2cec69e.json",
+					"name" : "Oppgave3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Oppgave4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Oppgave4-Debug-df54f56273c5452b982d.json",
+					"name" : "Oppgave4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sverr/CLionProjects/cppOving3/cmake-build-debug",
+		"source" : "C:/Users/sverr/CLionProjects/cppOving3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

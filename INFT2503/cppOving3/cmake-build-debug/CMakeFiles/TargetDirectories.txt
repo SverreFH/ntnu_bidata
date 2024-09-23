@@ -1,0 +1,5 @@
+C:/Users/sverr/CLionProjects/cppOving3/cmake-build-debug/CMakeFiles/Oppgave1og2.dir
+C:/Users/sverr/CLionProjects/cppOving3/cmake-build-debug/CMakeFiles/Oppgave3.dir
+C:/Users/sverr/CLionProjects/cppOving3/cmake-build-debug/CMakeFiles/Oppgave4.dir
+C:/Users/sverr/CLionProjects/cppOving3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sverr/CLionProjects/cppOving3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

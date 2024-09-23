@@ -1,0 +1,13 @@
+# ninja log v5
+3	335	7458447524057102	CMakeFiles/C__Oving1.dir/main.cpp.obj	5c4c65b007f05260
+3	366	7458471456989464	CMakeFiles/C__Oving1.dir/File.cpp.obj	3f2eff70bfb58dc8
+367	457	7458471457870266	C__Oving1.exe	f7a10a748c8c74f4
+3	174	7467171583083626	build.ninja	36a4c8d89e7fed0c
+3	308	7458463908112987	CMakeFiles/C__Oving1.dir/Terminal.cpp.obj	29a499ba40411329
+1	412	7467171637683288	CMakeFiles/OppgaveA.dir/OppgaveA/Terminal.cpp.obj	33e6b58255df33cc
+3	403	7467171971737285	CMakeFiles/OppgaveA.dir/OppgaveA/Terminal.cpp.obj	33e6b58255df33cc
+403	495	7467171972628097	OppgaveA.exe	88094f46fb5460a0
+0	404	7467172259619182	CMakeFiles/OppgaveB.dir/OppgaveB/File.cpp.obj	e7721cc002ac9d06
+404	502	7467172260580062	OppgaveB.exe	58ddef22b48b4a6a
+3	376	7467172526592061	CMakeFiles/OppgaveB.dir/OppgaveB/File.cpp.obj	e7721cc002ac9d06
+376	470	7467172527512898	OppgaveB.exe	58ddef22b48b4a6a
