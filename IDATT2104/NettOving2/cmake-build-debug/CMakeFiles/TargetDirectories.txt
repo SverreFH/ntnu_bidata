@@ -1,0 +1,3 @@
+C:/Users/sverr/CLionProjects/Oving_2/cmake-build-debug/CMakeFiles/Oving_2.dir
+C:/Users/sverr/CLionProjects/Oving_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sverr/CLionProjects/Oving_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
