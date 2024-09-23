@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -19,6 +19,36 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, etc.)
+.idea/
+*.iml
+out/
+# Uncomment if you have Gradle or Maven
+# target/
+# build/
+
+# User-specific files (JetBrains)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === Operating System ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
