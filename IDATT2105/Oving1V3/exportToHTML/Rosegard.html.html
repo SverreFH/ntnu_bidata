@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Rosegard.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Rosegard.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;STYLE&gt;</span>
+        <span class="s1">.</span><span class="s0">MainHeading </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s3">header</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">Logo </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s3">header</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">HeaderImage </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s3">header</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">BorderBox </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s0">main</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">MainBox </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s0">main</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">StartingHeading </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s0">main</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">Line </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s0">main</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">Tent </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s0">main</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">House </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s0">main</span><span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">Farm </span><span class="s1">{</span><span class="s2">grid-area</span><span class="s1">: </span><span class="s0">main</span><span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">grid_container</span><span class="s1">{</span>
+            <span class="s2">display</span><span class="s1">: </span><span class="s3">grid</span><span class="s1">;</span>
+            <span class="s2">grid-template-areas</span><span class="s1">:</span>
+        <span class="s3">'header header header header header header header'</span>
+        <span class="s3">'left left main main main right right'</span>
+        <span class="s3">'foot foot foot foot foot foot foot'</span><span class="s1">;</span>
+        <span class="s1">}</span>
+
+        <span class="s1">.</span><span class="s0">button_container</span><span class="s1">{</span>
+            <span class="s2">position</span><span class="s1">: </span><span class="s3">relative</span><span class="s1">;</span>
+            <span class="s2">display</span><span class="s1">: </span><span class="s3">inline-block</span><span class="s1">;</span>
+        <span class="s1">}</span>
+    <span class="s0">&lt;/STYLE&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;title&gt;</span><span class="s1">Rosegard</span><span class="s0">&lt;/title&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;Style.css&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;body&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= grid_container</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= HeaderImage</span><span class="s0">&gt;&lt;img </span><span class="s2">src </span><span class="s3">= Header.png </span><span class="s2">alt </span><span class="s3">= &quot;Header&quot; </span><span class="s2">height</span><span class="s3">=&quot;200&quot;</span><span class="s0">&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= MainHeading</span><span class="s0">&gt;&lt;h1 </span><span class="s2">id </span><span class="s3">= MainHeading</span><span class="s0">&gt;</span><span class="s1">Rosegard MC Builds </span><span class="s0">&lt;/h1&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= Logo</span><span class="s0">&gt;&lt;img </span><span class="s2">src</span><span class="s3">=&quot;Rose.png&quot; </span><span class="s2">alt</span><span class="s3">=&quot;Logo&quot; </span><span class="s2">width</span><span class="s3">=&quot;200&quot; </span><span class="s2">height</span><span class="s3">=&quot;200&quot;</span><span class="s0">&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= BorderBox</span><span class="s0">&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= MainBox</span><span class="s0">&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;StartingHeading&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= StartingHeading</span><span class="s0">&gt;&lt;h1&gt;</span><span class="s1">Build-category</span><span class="s0">&lt;/h1&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= Line</span><span class="s0">&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= Tent</span><span class="s0">&gt; &lt;button </span><span class="s2">type </span><span class="s3">= &quot;button&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">src </span><span class="s3">= Header.png </span><span class="s2">alt </span><span class="s3">= &quot;Header&quot; </span><span class="s2">width</span><span class="s3">=&quot;500&quot; </span><span class="s2">height</span><span class="s3">=&quot;300&quot;</span><span class="s0">&gt;&lt;/button&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= House</span><span class="s0">&gt; &lt;button </span><span class="s2">type </span><span class="s3">= &quot;button&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">src </span><span class="s3">= Header.png </span><span class="s2">alt </span><span class="s3">= &quot;Header&quot; </span><span class="s2">width</span><span class="s3">=&quot;500&quot; </span><span class="s2">height</span><span class="s3">=&quot;300&quot;</span><span class="s0">&gt;&lt;/button&gt;&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class </span><span class="s3">= Farm</span><span class="s0">&gt; &lt;button </span><span class="s2">type </span><span class="s3">= &quot;button&quot;</span><span class="s0">&gt;&lt;img </span><span class="s2">src </span><span class="s3">= Header.png </span><span class="s2">alt </span><span class="s3">= &quot;Header&quot; </span><span class="s2">width</span><span class="s3">=&quot;500&quot; </span><span class="s2">height</span><span class="s3">=&quot;300&quot;</span><span class="s0">&gt;&lt;/button&gt;&lt;/div&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+
+    <span class="s0">&lt;/div&gt;</span>
+
+<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span></pre>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <STYLE>
+        .MainHeading {grid-area: header}
+        .HeaderImage {grid-area: header}
+        .MainBox {grid-area: main}
+        .StartingHeading {grid-area: main}
+        .Line {grid-area: main}
+        .Footer {grid-area: foot}
+
+        .grid_container{
+            display: grid;
+            grid-template-areas:
+        'header header header header header header header'
+        'left left main main main right right'
+        'foot foot foot foot foot foot foot';
+        }
+
+    </STYLE>
+    <meta charset="UTF-8">
+    <title>Rosegard</title>
+</head>
+    <link rel="stylesheet" href="Style.css">
+<body>
+    <div class = grid_container>
+        <div class = HeaderImage><img src = Header.png alt = "Header" height="200"></div>
+        <div class = MainHeading><header><img src="Rose.png" alt="Logo" id = logo><h1>Rosegard MC Builds</h1></header></div>
+        <div class = MainBox></div>
+        <div class="StartingHeading">
+            <div class = StartingHeading><h1>Builds</h1></div>
+            <div class = Line></div>
+            <div class = button_container>
+                <div id = Tent> <button type = "button" class = "themeBtn"><img src = Tent.jpg alt = "Tent" width="100%" height="300"></button></div>
+                <div id = LikeTent><button type = "button" class = likeButton></button></div>
+                <div id = counterTent><h2 id = tentCounter>0</h2></div>
+            </div>
+            <div class = button_container>
+                <div id = House> <button type = "button" class = "themeBtn"><img src = House.jpg alt = "House" width="100%" height="300"></button></div>
+                <div id = LikeHouse><button type = "button" class = likeButton></button></div>
+                <div id = counterHouse><h2 id = HouseCounter>0</h2></div>
+            </div>
+            <div class = button_container>
+                <div id = Farm> <button type = "button" class = "themeBtn"><img src = Farm.jpg alt = "Farm" width="100%" height="300"></button></div>
+                <div id = LikeFarm><button type = "button" class = likeButton></button></div>
+                <div id = counterFarm><h2 id = FarmCounter>0</h2></div>
+            </div>
+            <div><button type = "button" id = "generateBtn">Generate Build Ideas</button></div>
+        </div>
+        <div class = Footer>
+            <footer class = Links>
+                <div><button type = "button" id = linksBtn>Links</button></div>
+                <div>
+                    <ul>
+                        <li><a href = "https://www.planetminecraft.com/project/the-isles-of-dronar/">PlanetMinecraft: Lumyno Asabor</a></li>
+                        <li><a href = "#">Instagram: Lumyno_Asabor</a></li>
+                        <li><a href = "#">YouTube: Lumyno_Asabor</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
